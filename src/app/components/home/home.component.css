@@ -1,33 +1,4 @@
-
-@-webkit-keyframes playing {
-    0% {
-      width: 0%; }
-  
-    100% {
-      width: 100%; } }
-  
-  @-moz-keyframes playing {
-    0% {
-      width: 0%; }
-  
-    100% {
-      width: 100%; } }
-  
-  @-o-keyframes playing {
-    0% {
-      width: 0%; }
-  
-    100% {
-      width: 100%; } }
-  
-  @keyframes playing {
-    0% {
-      width: 0%; }
-  
-    100% {
-      width: 100%; } }
-  
-  * {
+ * {
     box-sizing: border-box; 
 }
 h1 {
