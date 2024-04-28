@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
 }
 body 
 {
@@ -133,23 +132,6 @@ section .signin .content .form .inputBox i
   font-size: 0.8em;
   color: #fff;
 }
-.signin .content .form .links 
-{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.signin .content .form .links a 
-{
-  color: #fff;
-  text-decoration: none;
-}
-.signin .content .form .links a:nth-child(2)
-{
-  color: rgb(204, 0, 255);
-  font-weight: 600;
-}
 .signin .content .form .inputBox input[type="submit"]
 {
   padding: 10px;
@@ -159,6 +141,11 @@ section .signin .content .form .inputBox i
   font-size: 1.35em;
   letter-spacing: 0.05em;
   cursor: pointer;
+}
+.signin .content .form .inputBox button{
+  width: 220px;
+  height: 50px;
+  border: 8px;
 }
 input[type="submit"]:active
 {
