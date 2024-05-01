@@ -13,7 +13,7 @@ export class LoginComponent {
   constructor(private router: Router){}
   
   login(username: string, password: string){
-    if (username === 'admin' && password === '123') {
+    if (username === 'Mafe' && password === '0206') {
       this.router.navigate(['/home']);
     } else {
       // Autenticación fallida, mostrar mensaje de error
